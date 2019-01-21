@@ -1,0 +1,85 @@
+<resources>
+
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="Theme.AppCompat.Light.DarkActionBar">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="colorAccent">@color/colorAccent</item>
+    </style>
+
+    <style name="main_light" parent="Theme.AppCompat.Light.NoActionBar">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="colorAccent">#6D6D6D</item>
+        <item name="android:statusBarColor">#ffffff</item>
+        <item name="android:windowLightStatusBar">true</item>
+        <item name="android:navigationBarColor">#98EE99</item>
+        <item name="android:windowBackground">@drawable/main_light_gradient</item>
+    </style>
+
+    <style name="main_dark" parent="Theme.AppCompat.Light.NoActionBar">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="colorAccent">@android:color/white</item>
+        <item name="android:statusBarColor">@color/darkcolor</item>
+        <item name="android:windowLightStatusBar">false</item>
+        <item name="android:navigationBarColor">#614C7D</item>
+    </style>
+
+    <style name="login_light" parent="Theme.AppCompat.Light.NoActionBar">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="colorAccent">#6D6D6D</item>
+        <item name="android:statusBarColor">#ffffff</item>
+        <item name="android:windowLightStatusBar">true</item>
+        <item name="android:navigationBarColor">#66BB6A</item>
+    </style>
+
+    <style name="login_dark" parent="Theme.AppCompat.Light.NoActionBar">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="colorAccent">@android:color/white</item>
+        <item name="android:statusBarColor">#221E3D</item>
+        <item name="android:windowLightStatusBar">false</item>
+        <item name="android:navigationBarColor">@color/darkcolor</item>
+    </style>
+
+    <style name="signup_light" parent="Theme.AppCompat.Light.NoActionBar">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="colorAccent">#6D6D6D</item>
+        <item name="android:statusBarColor">#ffffff</item>
+        <item name="android:windowLightStatusBar">true</item>
+        <item name="android:navigationBarColor">#66BB6A</item>
+    </style>
+
+    <style name="signup_dark" parent="Theme.AppCompat.Light.NoActionBar">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="colorAccent">@android:color/white</item>
+        <item name="android:statusBarColor">#221E3D</item>
+        <item name="android:windowLightStatusBar">false</item>
+        <item name="android:navigationBarColor">@color/darkcolor</item>
+    </style>
+
+
+
+    <style name="settings" parent="Theme.AppCompat.Light.NoActionBar">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">#ffffff</item>
+        <item name="colorPrimaryDark">#ffffff</item>
+        <item name="colorAccent">#cccccc</item>
+        <item name="android:statusBarColor">#ffffff</item>
+        <item name="android:windowLightStatusBar">true</item>
+        <item name="android:navigationBarColor">#9499b7</item>
+
+    </style>
+
+</resources>

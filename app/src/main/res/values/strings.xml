@@ -1,0 +1,46 @@
+<resources>
+    <string name="app_name">LearnCodeOnline Login</string>
+
+    //Header
+
+    <string name="textviewone">LearnCodeOnline</string>
+    <string name="textviewtwo">Tech Video Courses</string>
+
+    //main
+
+    <string name="continuewith">CONTINUE WITH</string>
+    <string name="useemailadress">or use email address</string>
+    <string name="login">LOG IN</string>
+    <string name="signup">SIGN UP</string>
+    <string name="lcodfone">LearnCodeOnline</string>
+    <string name="lcodftwo">app to watch content anywhere</string>
+
+    //login_body
+
+    <string name="email_hint">Email Id</string>
+    <string name="passeord_hint">Password</string>
+    <string name="passeordconf_hint">Confirm Password</string>
+    <string name="welcome">Welcome Back,</string>
+    <string name="cont">Sign in to continue</string>
+    <string name="forgotpass">Forgot Password?</string>
+    <string name="donthavacc">Don\'t have an account? </string>
+    <string name="signupheree">Sign up</string>
+    <string name="heree">here</string>
+
+    //signup
+
+    <string name="lcotle">Learn Code online</string>
+    <string name="signuptle">Your Journey to magical world of programming starts here !</string>
+    <string name="havacc">Have an account? </string>
+    <string name="signinheree">Sign in</string>
+
+    //about
+
+    <string name="abouttitle">About</string>
+    <string name="dev">Developed by</string>
+    <string name="devname">Jace</string>
+    <string name="devtic">Flareui</string>
+    <string name="info">This is a Prototype  of LCO (Learn code online) App. </string>
+
+
+</resources>

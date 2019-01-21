@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layer-list xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item>
+        <shape android:shape="rectangle">
+            <size
+                android:width="350dp"
+                android:height="250dp" />
+            <solid android:color="@android:color/transparent" />
+        </shape>
+    </item>
+
+    <!-- This rectangle for the left side -->
+    <!-- Its color should be the same as layout's -->
+    <item
+        android:right="-60dp"
+        android:left="-60dp">
+        <rotate
+            android:fromDegrees="0">
+            <shape android:shape="oval">
+                <solid android:color="#ffffff" />
+            </shape>
+        </rotate>
+    </item>
+    <item
+        android:gravity="top">
+        <shape android:shape="rectangle">
+            <size
+                android:height="125dp"
+                android:width="350dp"/>
+            <solid android:color="#ffffff" />
+       </shape>
+    </item>
+
+
+    <!-- These rectangles for the right side -->
+    <!-- Their color should be the same as layout's -->
+
+</layer-list>

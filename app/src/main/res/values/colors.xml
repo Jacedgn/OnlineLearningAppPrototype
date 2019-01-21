@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#008577</color>
+    <color name="colorPrimaryDark">#00574B</color>
+    <color name="colorAccent">#D81B60</color>
+    <color name="grey">#6d6d6d</color>
+
+
+    <color name="transwhite">#66FFFFFF</color>
+
+
+    //Header
+    <color name="textviewcolorone">#516E90</color>
+    <color name="textviewcolortwo">#839DBC</color>
+
+
+
+    <color name="darkcolor">#4b4568</color>
+    <color name="transdark">#664b4568</color>
+</resources>
