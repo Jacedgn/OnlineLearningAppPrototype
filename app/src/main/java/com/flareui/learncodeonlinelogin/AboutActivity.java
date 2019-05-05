@@ -48,7 +48,7 @@ public class AboutActivity extends AppCompatActivity {
             @Override
             public void onClick(View v) {
 
-                String url = "https://www.instagram.com/flareui.fl/";
+                String url = "https://www.instagram.com/flareui.io/";
                 Intent i = new Intent(Intent.ACTION_VIEW);
                 i.setData(Uri.parse(url));
                 startActivity(i);
@@ -56,31 +56,31 @@ public class AboutActivity extends AppCompatActivity {
             }
         });
 
-        ImageButton facebook = findViewById(R.id.facebookabts);
-        facebook.setOnClickListener(new View.OnClickListener() {
-            @Override
-            public void onClick(View v) {
+//         ImageButton facebook = findViewById(R.id.facebookabts);
+//         facebook.setOnClickListener(new View.OnClickListener() {
+//             @Override
+//             public void onClick(View v) {
 
-                String url = "https://www.facebook.com/flareui.fl/";
-                Intent i = new Intent(Intent.ACTION_VIEW);
-                i.setData(Uri.parse(url));
-                startActivity(i);
+//                 String url = "https://www.facebook.com/flareui.fl/";
+//                 Intent i = new Intent(Intent.ACTION_VIEW);
+//                 i.setData(Uri.parse(url));
+//                 startActivity(i);
 
-            }
-        });
+//             }
+//         });
 
-        ImageButton twitter = findViewById(R.id.twitterabts);
-        twitter.setOnClickListener(new View.OnClickListener() {
-            @Override
-            public void onClick(View v) {
+//         ImageButton twitter = findViewById(R.id.twitterabts);
+//         twitter.setOnClickListener(new View.OnClickListener() {
+//             @Override
+//             public void onClick(View v) {
 
-                String url = "https://twitter.com/flareui?lang=en";
-                Intent i = new Intent(Intent.ACTION_VIEW);
-                i.setData(Uri.parse(url));
-                startActivity(i);
+//                 String url = "https://twitter.com/flareui?lang=en";
+//                 Intent i = new Intent(Intent.ACTION_VIEW);
+//                 i.setData(Uri.parse(url));
+//                 startActivity(i);
 
-            }
-        });
+//             }
+//         });
 
 
     }
