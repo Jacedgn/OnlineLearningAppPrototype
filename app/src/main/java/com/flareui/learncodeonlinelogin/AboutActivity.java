@@ -35,7 +35,7 @@ public class AboutActivity extends AppCompatActivity {
             @Override
             public void onClick(View v) {
 
-                String url = "https://www.instagram.com/jcs.10/";
+                String url = "https://www.instagram.com/jacex20/";
                 Intent i = new Intent(Intent.ACTION_VIEW);
                 i.setData(Uri.parse(url));
                 startActivity(i);
