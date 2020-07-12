@@ -48,7 +48,7 @@ public class AboutActivity extends AppCompatActivity {
             @Override
             public void onClick(View v) {
 
-                String url = "https://www.instagram.com/flare.ui/";
+                String url = "https://www.instagram.com/jacedgn/";
                 Intent i = new Intent(Intent.ACTION_VIEW);
                 i.setData(Uri.parse(url));
                 startActivity(i);
