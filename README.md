@@ -1,2 +1,2 @@
 # Online Learning App Prototype
-this is a prototype of a app with no functionality.
+this is a prototype Android app with no functionality.
